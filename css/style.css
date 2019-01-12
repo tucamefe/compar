@@ -1,38 +1,68 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 40px;
 }
 
 #menu a {
     color: #6dc8bf;
     text-decoration: none;
+    font-weight: 500;
+    font-size: 110%;
+    -webkit-font-smoothing: antialiased;
+    margin: 10px;
+}
+
+#box-menu {
+    margin-top: -20%;
 }
 
 #cabecalho {
     text-align: center;
     height: 100%;
     margin-top: auto;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #cabecalho .imagem-logo {
-    width: 548px;
-    height: 335px;
+    width: 50%; /* 1440px - 548px*/
+    height: 50%; /* 1440px - 335px */
+}
+
+#sobre {
+    height: 100%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 #sobre h2 {
     color: #f15a22;
+    -webkit-font-smoothing: antialiased;
 }
 
 .box-sobre {
     text-align: center;
+    margin-right: 40px;
 }
 
 .box-texto {
+    background: #ffffff ;
+    position: relative;
+    background-size: cover;
     text-align: left;
+    float: right;
+    width: 60%
 }
 
 .box-equipe {
     float: left;
+    margin-left: 40px;
+    margin-right: -40px;
 }
 
 .box-equipe img {
