@@ -1,0 +1,44 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 40px;
+}
+
+#menu a {
+    color: #6dc8bf;
+    text-decoration: none;
+}
+
+#cabecalho {
+    text-align: center;
+    height: 100%;
+    margin-top: auto;
+}
+
+#cabecalho .imagem-logo {
+    width: 548px;
+    height: 335px;
+}
+
+#sobre h2 {
+    color: #f15a22;
+}
+
+.box-sobre {
+    text-align: center;
+}
+
+.box-texto {
+    text-align: left;
+}
+
+.box-equipe {
+    float: left;
+}
+
+.box-equipe img {
+    width: 548px;
+    height: 335px;
+}
+
+
+
