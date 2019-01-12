@@ -1,2 +1,2 @@
 # compar
-Site os the Compar Company
+Site of the Compar Company
