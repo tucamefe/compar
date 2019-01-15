@@ -1,74 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: all 150ms ease;
 }
 
-#menu a {
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    display:flex;
+  align-items: center;
+    justify-content: center;
+}
+
+.menu a {
     color: #6dc8bf;
     text-decoration: none;
     font-weight: 500;
     font-size: 110%;
-    -webkit-font-smoothing: antialiased;
     margin: 10px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
-#box-menu {
-    margin-top: -20%;
+header.cabecalho {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 56px);
+  background-position: center center;
+  background-size: cover;
 }
 
-#cabecalho {
-    text-align: center;
-    height: 100%;
-    margin-top: auto;
-    
-    display: flex;
+.box-cabecalho {
+    display:flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 
-#cabecalho .imagem-logo {
+.box-cabecalho .imagem-logo {
     width: 50%; /* 1440px - 548px*/
     height: 50%; /* 1440px - 335px */
 }
 
 #sobre {
-    height: 100%;
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    padding: 100px;
+
 }
 
 #sobre h2 {
     color: #f15a22;
-    -webkit-font-smoothing: antialiased;
 }
 
 .box-sobre {
-    text-align: center;
-    margin-right: 40px;
+    /*text-align: center;
+    margin-right: 40px;*/
 }
 
 .box-texto {
     background: #ffffff ;
-    position: relative;
+    /*position: relative;*/
     background-size: cover;
-    text-align: left;
+    /*text-align: left;*/
     float: right;
-    width: 60%
+    width: 60%;
 }
 
 .box-equipe {
     float: left;
-    margin-left: 40px;
-    margin-right: -40px;
+    position: absolute;
+    z-index: -1;
 }
 
 .box-equipe img {
-    width: 548px;
-    height: 335px;
+   /* width: 548px;
+    height: 335px;*/
+    width: 50%;
+    height: 40%;
 }
+
+#portfolio {
+    height: 100%;
+    
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 
 
