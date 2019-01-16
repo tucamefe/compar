@@ -4,6 +4,11 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE)
  */
 
+ @font-face {
+  font-family: BigNoodle;
+  src: url(../fonts/big_noodle_titling_oblique.ttf);
+}
+
 body,
 html {
   width: 100%;
@@ -11,7 +16,8 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;;
+  
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;;
 }
 
 hr {
@@ -74,18 +80,16 @@ h6 {
   padding: 20px;
 }
 
-section {
-  padding: 8rem 0;
-}
-
 .section-heading {
+  font-family: BigNoodle;
+  font-size: 45pt;
   margin-top:150px;
   margin-left: -50px;
   text-transform: uppercase;
 
 }
  .recuo {
-  margin-left: -220px;
+  margin-left: -230px;
 }
 
 ::-moz-selection {
@@ -118,16 +122,13 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(33, 37, 41, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
-  text-transform: uppercase;
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -136,10 +137,9 @@ img::-moz-selection {
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link,
 #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
-  font-size: .9rem;
-  font-weight: 700;
-  text-transform: uppercase;
+  font-size: 18px;
   color: #212529;
+
 }
 
 #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
