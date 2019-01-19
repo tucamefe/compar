@@ -3,6 +3,7 @@
   }
 
 body {
+    color: #FCFFDB;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 150ms ease;
 }
