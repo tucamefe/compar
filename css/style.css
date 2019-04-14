@@ -4,7 +4,6 @@
 
 body {
     color: #FCFFDB;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     transition: all 150ms ease;
 }
 
@@ -91,6 +90,21 @@ header.cabecalho {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#saiba-link {
+    background-color: rgb(255, 255, 204, 0.9);
+    text-align: center;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+p {
+    color: #362E2A;
+}
+
+.flexing {
     flex-wrap: wrap;
 }
 
